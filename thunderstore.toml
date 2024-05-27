@@ -1,22 +1,22 @@
 [config]
-schemaVersion = "0.0.1"
+schemaVersion = "0.1.0"
 
 
 [package]
-namespace = "AuthorName"
-name = "ModName"
-versionNumber = "0.0.0"
-description = "Allows to do some super duper thing."
-websiteUrl = "https://github.com/AuthorName/ModName"
+namespace = "Gunjou"
+name = "Hades_II_Approval_Process"
+versionNumber = "0.1.0"
+description = "Ports over the Pact setting 'Approval Process' from the original Hades as 'Vow of Acceptance'."
+websiteUrl = "https://github.com/rajshankarm1213/Hades_II_Approval_Process"
 containsNsfwContent = false
 
 [package.dependencies]
-Hell2Modding-Hell2Modding = "1.0.28"
+Hell2Modding-Hell2Modding = "1.0.30"
 SGG_Modding-ENVY = "1.0.1"
 SGG_Modding-Chalk = "2.0.2"
 SGG_Modding-ReLoad = "1.0.1"
 SGG_Modding-SJSON = "1.0.0"
-SGG_Modding-ModUtil = "3.1.0"
+SGG_Modding-ModUtil = "3.1.1"
 
 
 [build]
