@@ -4,9 +4,9 @@ Mod for the game [Hades II](https://store.steampowered.com/app/1145350/Hades_II/
 
 ## Features
 
-- Adds additional Fear options to the "Oath of the Unseen" bounties, in the form of _Approval Process_ from the "Pact of Punishment" bounty in the original game.
-- **Approval Process**:
-  - You have fewer choices when offered Boons, items, or upgrades, 1 per rank.
+- Adds additional Fear options to the "Oath of the Unseen" bounties, in the form of _Approval Process_ from the "Pact of Punishment" bounty in the original game as _Vow of Acceptance_.
+- **Vow of Acceptance**:
+  - You have 1/2 fewer choices when offered Boons, items, or upgrades.
 - Two ranks in total, the first one adds 2 Fear and the second one adds 3 Fear. This takes the maximum possible Fear count to 60. (As of v0.91027)
 
 ## Installation
