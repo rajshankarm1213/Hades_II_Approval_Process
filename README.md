@@ -11,8 +11,4 @@ Mod for the game [Hades II](https://store.steampowered.com/app/1145350/Hades_II/
 
 ## Installation
 
-- Installation Instructions coming soon
-
-## Releases
-
-- Releases coming soon
+To install the mod via Thunderstore, you will need to manually install the dependencies or use the fork for R2Modman [here](https://github.com/xiaoxiao921/r2modmanPlus/releases).

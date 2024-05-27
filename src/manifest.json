@@ -1,7 +1,7 @@
 {
   "namespace": "Gunjou",
   "name": "Hades II Approval Process",
-  "version_number": "0.0.1",
+  "version_number": "0.1.0",
   "website_url": "",
   "description": "Ports over the Pact setting 'Approval Process' from the original Hades as 'Vow of Acceptance' ",
   "dependencies": [
