@@ -24,7 +24,6 @@ metaUpgradesTable.ReducedLootChoicesShrineUpgrade =
 	Name = "ReducedLootChoicesShrineUpgrade",
 	ShortTotal = "ReducedLootChoicesShrineUpgrade_ShortTotal",
 }
-
 game.ShrineUpgrades = {
 	ReducedLootChoicesShrineUpgrade = 0, -- AP value is 0 by default
 }
@@ -39,4 +38,12 @@ sjson.hook(traitText, function(sjsonData)
 			DisplayName = "Vow of Acceptance",
 			Description = "You have {#ShrinePenaltyFormat} {$MetaUpgradeData.ReducedLootChoicesShrineUpgrade.ChangeValue} {#Prev} fewer choice(s) when offered {$Keywords.GodBoonPlural}, items, or upgrades."
 	}, order))
+end)
+
+modutil.mod.Path.Override("CalcNumLootChoices", function()
+	local numChoices = ScreenData.UpgradeChoice.MaxChoices - GetNumShrineUpgrades("ReducedLootChoicesShrineUpgrade")
+	if (isGodLoot or treatAsGodLootByShops) and HasHeroTraitValue("RestrictBoonChoices") then
+		numChoices = numChoices - 1
+	end
+	return numChoices
 end)
